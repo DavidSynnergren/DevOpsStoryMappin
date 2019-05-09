@@ -2,11 +2,11 @@
     "manifestVersion": 1,
     "id": "david-devops-story-mappin",
     "publisher": "DavidSynnergrenTest",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "name": "DevOps StoryMappin",
     "description": "A sample Visual Studio Services extension",
     "public": false,
-    "categories": ["Azure Repos"],
+    "categories": ["Azure Boards"],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -17,7 +17,7 @@
             "id": "my-hub",
             "type": "ms.vss-web.hub",
             "targets": [
-                "ms.vss-code-web.code-hub-group"
+                "ms.vss-work-web.work-hub-group"
             ],
             "properties": {
                 "name": "Story Mappin",
