@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "david-devops-story-mappin",
-    "publisher": "",
-    "version": "1.0.0",
+    "publisher": "DavidSynnergrenTest",
+    "version": "1.0.1",
     "name": "DevOps StoryMappin",
     "description": "A sample Visual Studio Services extension",
     "public": false,
@@ -20,8 +20,8 @@
                 "ms.vss-code-web.code-hub-group"
             ],
             "properties": {
-                "name": "My Hub",
-                "uri": "my-hub.html"
+                "name": "Story Mappin",
+                "uri": "index.html"
             }
         }
     ],
