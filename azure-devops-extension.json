@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "david-devops-story-mappin",
     "publisher": "DavidSynnergrenTest",
-    "version": "1.0.8",
+    "version": "1.0.18",
     "name": "DevOps StoryMappin",
     "description": "A sample Visual Studio Services extension",
     "categories": [
