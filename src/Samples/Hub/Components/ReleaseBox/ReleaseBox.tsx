@@ -1,11 +1,12 @@
 import * as React from 'react';
+import './ReleaseBox.scss';
 
 export default class ReleaseBox extends React.Component<any> {
 	state = {};
 	public render() {
 		return (
-			<div>
-				<h2>Hej ReleaseBox</h2>
+			<div className="releasebox">
+				<h2>{this.props.displayHeader}</h2>
 			</div>
 		);
 	}

@@ -7,7 +7,7 @@ import { Page } from 'azure-devops-ui/Page';
 import { Header, TitleSize } from 'azure-devops-ui/Header';
 
 import { showRootComponent } from '../../Common';
-import Column from './Components/Coloum/Coloum';
+import Column from './Components/Column/Column';
 
 interface IHubContentState {
 	selectedTabId: string;
@@ -37,9 +37,11 @@ class HubContent extends React.Component<{}, IHubContentState> {
 		return (
 			<Page className="sample-hub flex-grow">
 				<Header title="Story Mappin'" titleSize={useLargeTitle ? TitleSize.Large : TitleSize.Medium} />
-				<Column />
-				<Column />
-				<Column />
+				<div className="column-wapper">
+					<Column isFirst="true" rows="3" />
+					<Column isFirst="false" rows="3" />
+					<Column isFirst="false" rows="3"/>
+				</div>
 			</Page>
 		);
 	}
